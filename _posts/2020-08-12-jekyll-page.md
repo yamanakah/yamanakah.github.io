@@ -9,7 +9,7 @@ tags:
   - websites
   - tutorial
 ---
-
+## This post is a work in progress
 Create a Github repository for the websites content on Github.com and clone it on your machine.
 
 Go to the repository and create a new Jekyll project > jekyll new . --force
