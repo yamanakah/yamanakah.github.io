@@ -113,3 +113,14 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+  # Analytics is disabled by default. To enable globally select one of the following:
+# google	Google Standard Analytics
+# google-universal	Google Universal Analytics
+# google-gtag	Google Analytics Global Site Tag
+# custom	Other analytics providers
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-175469055-1"
+    anonymize_ip: false # default
