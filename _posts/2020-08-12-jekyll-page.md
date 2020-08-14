@@ -1,6 +1,6 @@
 ---
 title: "How to set up a Github page with Jekyll on Windows"
-date: 2020-08-12T15:00:00-04:00
+date: 2020-08-14T10:00:00-04:00
 categories:
   - blog
 tags:
@@ -9,6 +9,7 @@ tags:
   - websites
   - tutorial
 ---
+
 ## This post is a work in progress
 Create a Github repository for the websites content on Github.com and clone it on your machine.
 
