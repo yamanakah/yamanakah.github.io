@@ -10,6 +10,8 @@ tags:
   - blogging
 ---
 
+>This post is a work in progress! 
+
 Here is a quick guide on how to set up a website or personal blog with GitHub pages and Jekyll. Both platforms are completely free of any cost, perform very well and can be foundations for great looking sites.
 
 ## Jekyll installation
