@@ -28,20 +28,21 @@ Note that Windows is not an officially supported platform for Jekyll. Neverthele
 
 Next, you want to create a GitHub repository for the website. Use your username plus .github.io as the repository name. This will also be the webpage address.
 
-![GitHub repository](./assets/2020-08-12-jekyll-page/github_repo.PNG)
+![GitHub repository](/assets/2020-08-12-jekyll-page/github_repo.PNG)
 
->Note: If you name the repository anything other than username.github.io it will still work as a GitHub page, but the address will be username.github.io/repository_name.
+
+Note: If you name the repository anything other than username.github.io it will still work as a GitHub page, but the address will be username.github.io/repository_name.
 
 Once the empty repository is created go to the repository settings and scroll down to the GitHub Pages section. Here you need to set the source as branch: master in your root folder.
 
-![repository settings](./assets/2020-08-12-jekyll-page/github_site.PNG)
+![repository settings](/assets/2020-08-12-jekyll-page/github_site.PNG)
 
 Now you are all set to create the webpage.
 
 ## Create Jekyll site
 
-Clone your new GitHub repository on your local environment.
->git clone https://github.com/repository_name
+Clone your new GitHub repository on your local environment. In VisualStudio Code press CRTL+Shift+P and use the command:
+>Git:Clone
 
 Go to the repository (current directory needs to be the cloned repository location) and create a new Jekyll project by running the following command
 > jekyll new . --force
@@ -78,6 +79,8 @@ Sometimes the livereload functionality does not work under Windows. To resolve t
 
 
 -----
-Sources:
-jekyllrb.com
-github.com
+*Sources:*
+
+*jekyllrb.com*
+
+*github.com*
