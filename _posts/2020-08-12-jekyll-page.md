@@ -2,11 +2,10 @@
 title: "How to set up a Github page with Jekyll on Windows"
 date: 2020-08-14T10:00:00-04:00
 categories:
-  - blog
+  - Tutorials
 tags:
   - Jekyll
   - GitHub
-  - tutorial
   - blogging
 ---
 
@@ -26,7 +25,7 @@ Note that Windows is not an officially supported platform for Jekyll. Neverthele
 [RubyInstaller Download](https://rubyinstaller.org/downloads/){:target="_blank"}
 2. Install the Ruby base files with the "MSYS2 development toolchain"
 3. Run the "ridk install" step on the last page of the installation wizard
-4. In a new command prompt window run: "gem install jekyll bundler"
+4. In a new command prompt window run: `gem install jekyll bundler`
 
 ## GitHub page repository
 
@@ -46,7 +45,7 @@ Now you are all set to create the webpage content.
 
 ## Create Jekyll site
 
-For the next steps you will need to use git commands to set up everything locally. I work in VisualStudio Code (VS Code) but you can use any option available to you. Depending on your set up you will need to download [Git for Windows](https://git-scm.com/download/win){:target="_blank"}.
+For the next steps you will need to use git commands to set up everything locally. I work in VisualStudio Code (VS Code) but you can use any text editor option available to you. Depending on your set up you will need to download [Git for Windows](https://git-scm.com/download/win){:target="_blank"}.
 
 Clone your new GitHub repository on your local environment. In VS Code press `CRTL+Shift+P` and type the command `Git:Clone`, followed by the repository URL (example: `https://github.com/username/username.github.io`).
 
@@ -97,7 +96,7 @@ If you followed the steps above your URL should look something like this `https:
 #### Changing the website theme
 By default the Jekyll page uses the [minima](https://github.com/jekyll/minima){:target="_blank"} theme. It is a beautiful and simplistic layout but does not offer many customizable features. Luckily there is a big community around Jekyll websites that offers plenty of alternative themes.
 
-Take a look at the following resources to get some inspirations. The instructions on how to set up the different themes is usually well documented.
+Take a look at the following resources to get some inspiration. The instructions on how to set up the different themes is usually well documented.
 
 - [Official GitHub Pages supported themes](https://pages.github.com/themes/){:target="_blank"}
 
@@ -124,8 +123,6 @@ If you want to read more about GitHub pages then the best starting point will be
 
 -----
 >
-> This blog post will be updated preiodically and improved upon.
->
-> Any feedback is greatly appreciated.
+> This blog post will be updated and improved on periodically.
 >
 > Author: Hyoson Yamanaka
