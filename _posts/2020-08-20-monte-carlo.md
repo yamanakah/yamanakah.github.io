@@ -12,6 +12,8 @@ tags:
   - Monte Carlo simulation
 ---
 
+>This post is a work in progress and will be updated in the coming weeks. (25.08.2020)
+
 Monte Carlo simulations are a helpful tool for analyzing the risks in financial transactions and products. The basic idea behind it is to simulate various possible outcomes of a complex situation by randomly picking scenarios.
 
 Monte Carlo simulations are a useful approach for risk assessment, since while in reality, only one outcome is observed, decision makers need to be aware of other possible adverse scenarios and their likelihood. A Monte Carlo simulation can offer insights into a range of outcomes we can expect.
@@ -160,12 +162,15 @@ At last, we can run any amount of simulations and see how the loss curve looks l
 
 #### Results of simulations (loss curves)
 After just 10 simulations it is still hard to get a good read on what possibility space we are dealing with.
+
 ![results after 100 simulations](/assets/2020-08-20-monte-carlo/mc_100_runs.PNG)
 
 Increasing the amount of runs reveals the shape of the loss distribution. It has the typical bell-shape which we expect from normally distributed variables.
+
 ![results after 1000 simulations](/assets/2020-08-20-monte-carlo/mc_1000_runs.PNG)
 
 At 10,000 simulations we can see the loss distribution shape quite clearly.
+
 ![results after 10000 simulations](/assets/2020-08-20-monte-carlo/mc_10000_runs.PNG)
 
 We have now created a valuable approximation of the loss distribution underlying our pool of 100 loans. This result can be used further to assess the risks of the transaction. For example, one might look at the losses which occur up to a certain confidence level (i.e. the [Value at risk](https://en.wikipedia.org/wiki/Value_at_risk) approach).
