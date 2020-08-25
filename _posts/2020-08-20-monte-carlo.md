@@ -163,15 +163,15 @@ At last, we can run any amount of simulations and see how the loss curve looks l
 #### Results of simulations (loss curves)
 After just 10 simulations it is still hard to get a good read on what possibility space we are dealing with.
 
-![results after 100 simulations](/assets/2020-08-20-monte-carlo/mc_100_runs.PNG)
+![results after 100 simulations](/assets/2020-08-20-monte-carlo/mc_100_runs.png)
 
 Increasing the amount of runs reveals the shape of the loss distribution. It has the typical bell-shape which we expect from normally distributed variables.
 
-![results after 1000 simulations](/assets/2020-08-20-monte-carlo/mc_1000_runs.PNG)
+![results after 1000 simulations](/assets/2020-08-20-monte-carlo/mc_1000_runs.png)
 
 At 10,000 simulations we can see the loss distribution shape quite clearly.
 
-![results after 10000 simulations](/assets/2020-08-20-monte-carlo/mc_10000_runs.PNG)
+![results after 10000 simulations](/assets/2020-08-20-monte-carlo/mc_10000_runs.png)
 
 We have now created a valuable approximation of the loss distribution underlying our pool of 100 loans. This result can be used further to assess the risks of the transaction. For example, one might look at the losses which occur up to a certain confidence level (i.e. the [Value at risk](https://en.wikipedia.org/wiki/Value_at_risk) approach).
 
