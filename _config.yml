@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# bundle exec jekzll serve --livereload
+# bundle exec jekyll serve --livereload
 #
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Hyoson Yamanaka"
-  avatar : "/assets/images/bio-photo2.jpg"
+  avatar : "/assets/images/bio-photo3.jpg"
   bio    : "Hi! I am a economist working in the financial services industry with a passion for learning new tricks. This blog is set up for me to share some of my journey and help me commit to my goal of life-long learning."
   links:
     # - label: "Website"
