@@ -52,7 +52,7 @@ Customer ID | Probability of Default (Year 1) | Probability of Default (Year 2) 
 2 | 0.02800 | 0.05500 | 0.07800
 3 | 0.17000 | 0.23000 | 0.30000
 
-> Note: The probabilities of default in the table are shown in decimals, so a 0.028 value for loan 2 in year 1 will be read as a 2.8% default probability. This means that we expect the borrower to default in year 1 in 2.8 out of a 100 scenarios.
+> Note: The probabilities of default in the table are shown in decimals, so a 0.028 value for loan 2 in year 1 will be read as a 2.8% default probability. This means that we expect the borrower to default in year 1 in 2.8 out of a 100 scenarios on average.
 
 With the test data and assumptions set up we can now simulate scenarios in which certain loans default (at random) and then aggregate the loss numbers.
 
