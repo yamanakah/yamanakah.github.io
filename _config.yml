@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Hyoson Yamanaka"
   avatar : "/assets/images/bio-photo3.jpg"
-  bio    : "Hi! I am a economist working in the financial services industry with a passion for learning new tricks. This blog is set up for me to share some of my journey and help me commit to my goal of life-long learning."
+  bio    : "Hi! I am an economist working in the financial services industry with a passion for learning new tricks. This blog is set up for me to share some of my journey and help me commit to my goal of life-long learning."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
