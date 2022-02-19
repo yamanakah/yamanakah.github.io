@@ -15,9 +15,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Patchwork Finance
+title: h.yamanaka
 subtitle: "A Blog about Finance, Economics and Data Science"
-logo: "/assets/images/logo2.png" #"/assets/images/88x88.png"
+logo: "/assets/images/logo2.jpg" #"/assets/images/88x88.png"
 email: hyoson.yamanaka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal blog about finance and economics with a focus on data science and programming in Python, R, SQL.
@@ -61,8 +61,8 @@ plugins:
 
 author:
   name   : "Hyoson Yamanaka"
-  avatar : "/assets/images/bio-photo3.jpg"
-  bio    : "Hi! I am an economist working in the financial services industry with a passion for learning new tricks. This blog is set up for me to share some of my journey and help me commit to my goal of life-long learning."
+  avatar : "/assets/images/hyprofile012021_square.jpg"
+  bio    : "Hi! I am an economist working in the financial services industry with a passion for learning. This blog is set up for me to share some of my discoveries along the journe of life-long learning."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
