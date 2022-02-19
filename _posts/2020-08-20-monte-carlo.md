@@ -12,9 +12,7 @@ tags:
   - Monte Carlo simulation
 ---
 
->This post is a work in progress and will be updated in the coming weeks. (25.08.2020)
-
-Monte Carlo simulations are a helpful tool for analyzing the risks in financial transactions and products. The basic idea behind it is to simulate various possible outcomes of a complex situation by randomly picking scenarios.
+Monte Carlo simulations are a helpful tool for analyzing the risks in financial transactions and products. The basic idea behind it is to simulate a wide variety possible outcomes of a complex structure by randomly picking different outcomes over and over again.
 
 Monte Carlo simulations are used extensively for risk assessments, since while in reality, only one outcome is observed, decision makers need to be aware of other possible adverse scenarios. A Monte Carlo simulation can offer insights into the range of outcomes and their likelihoods we can expect.
 
@@ -38,7 +36,7 @@ We also assume that each debtor pays down 10% of the initial loan balance each y
 
 Lastly, for simplicity, we assume that if a debtor defaults, the whole outstanding loan amount is considered a loss. There is **no recovery** possible. If the loan amount in year 3 was 70,000 and the borrower defaults, the whole 70,000 is added to the total losses in that scenario.
 
-Here is a snapshot of the first three loans out of the data created for this example (see the [GitHub repository](https://github.com/yamanakah/patchwork_finance){:target="_blank"} for full .csv-file). For each customer we have the loan amounts across the years, the rating and the probabilities of default for each year. 
+Here is a snapshot of the first three loans out of the data created for this example (see the [GitHub repository](https://github.com/yamanakah/patchwork_finance){:target="_blank"} for full .csv-file). For each customer we have the loan amounts across the years, the rating and the probabilities of default for each year.
 
 Customer ID | Loan Amount (Year 1) | Loan Amount (Year 2) | Loan Amount (Year 3) | Rating
 --- | --- | ---
