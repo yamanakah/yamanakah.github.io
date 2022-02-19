@@ -15,7 +15,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: yamanakh
+title: h.yamanaka
 subtitle: "A Blog about Finance, Economics and Data Science"
 logo: "/assets/images/logo2.png" #"/assets/images/88x88.png"
 email: hyoson.yamanaka@gmail.com
